@@ -71,5 +71,3 @@ app.use(express.static(path.join(__dirname, "public")));
 app.listen(app.get("port"), () => {
   console.log(">>> Servidor corriendo en el puerto:", app.get("port"));
 });
-
-module.exports = { PDFDocument };
