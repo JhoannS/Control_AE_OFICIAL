@@ -36,6 +36,7 @@ app.use(
     resave: false,
     saveUninitialized: false,
     store: new MySQLStore(database),
+    proxy: true
   })
 );
 app.use(flash());
